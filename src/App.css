@@ -36,3 +36,34 @@
     transform: rotate(360deg);
   }
 }
+
+body{
+  background-image: url(./images/bg.jpg);
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+}
+.weather-app{
+  background: linear-gradient(to bottom, rgba(0,0,0,0.3), rgba(0,0,0,0.6));
+  min-height: 100vh;
+  text-align: center;
+}
+.weather-app input{
+  margin-top: 5%;
+  width: 100%;
+    max-width: 280px;
+    padding: 10px 15px;
+    border: none;
+    outline: none;
+    background-color: rgba(255,255,255, 0.3);
+    border-radius: 16px 0 16px 0;
+    border-bottom: 3px solid #DF8E00;
+    color: #313131;
+    font-size: 20px;
+    font-weight: 300;
+    transition: 0.2s ease-out;
+}
+.weather-app input:focus{
+  background-color: rgba(255,255,255, 0.6);
+}
